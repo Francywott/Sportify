@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../stili.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-        <title>Sportify? - Home</title>
+        <title>Sportify? - Login</title>
     </head>
     <body>
         <nav class="nav_menu">
             <ul>
-                <li><a class="active" href="main.html"><i class="bi bi-house"></i> Home</a></li>
+                <li><a href="main.html"><i class="bi bi-house"></i> Home</a></li>
                 <li class="dropdown">
                     <a href="events.html"><i class="bi bi-dribbble"></i> Events</a>
                     <nav class="dropdown-content">
@@ -24,9 +24,21 @@
             </ul>
         </nav>
 
-        <p>questa è la home</p>
-        <img src="../imgs/casa.png">
-        <a href="signup.html">Iscriviti</a>
+        <aside style="float: left; width: 50%;">
+            <h1 class="login">Sportify</h1>
+            <p class="login">Lo sport al Nomentano,<br> come non l'hai mai visto prima!</p>
+        </aside>
         
+        <article style="float: right; width: 50%;">
+            <form class="login">
+                <p>Segui i form per accedere al lato sportivo del Nomentano</p>
+                <input placeholder="Nome" type="text"><br>
+                <input placeholder="Cognome" type="text"><br>
+                <input placeholder="E-mail" type="email"><br><br>
+                <input class="login_button" type="submit" value="Iscriviti">
+            </form>
+            <a href="login.html"><br><br>Sei un utente già registrato? Effettua il login</a>
+        </article>
+
     </body>
 </html>
