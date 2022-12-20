@@ -7,11 +7,11 @@ body {      /*applies to all*/
 /*links*/
 
 a:link {
-    color:rebeccapurple;
+    color:rgb(51, 153, 95);
 }
 
 a:visited {
-    color: lightcoral
+    color: rgb(145, 128, 240)
 }
 
 /*links end*/
@@ -27,7 +27,7 @@ a:visited {
   }
 
 .active {
-    background-color: rebeccapurple;
+    background-color: rgb(51, 153, 95);
 }
   
 .nav_menu li {
@@ -44,7 +44,7 @@ a:visited {
 }
   
 .nav_menu a:hover, .dropdown:hover{
-    background-color: lightcoral;
+    background-color: rgb(94, 163, 10);
 }
   
 .dropdown {
@@ -68,7 +68,7 @@ a:visited {
     text-align: center;
 }
   
-.dropdown-content a:hover {background-color: lightcoral;}
+.dropdown-content a:hover {background-color: rgb(32, 109, 65);}
   
 .dropdown:hover .dropdown-content {
     display: block;
@@ -84,8 +84,8 @@ a:visited {
 }
 
 .login_button {
-    background-color: rebeccapurple;
-    border: 2px solid rebeccapurple;
+    background-color: rgb(51, 153, 95);
+    border: 2px solid rgb(51, 153, 95);
     color: white;
     padding: 6px 12px;
     text-align: center;
@@ -99,7 +99,7 @@ a:visited {
 .login_button:hover {
     background-color: rgb(22, 22, 22);
     color: white;
-    border: 2px solid rebeccapurple
+    border: 2px solid rgb(51, 153, 127)
 }
 
 /*login button ends*/
